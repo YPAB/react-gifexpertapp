@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <GitExpertApp/> Debe crear una copia de GitExpertApp 1`] = `
+<Fragment>
+  <h2
+    className="animate__wobble"
+  >
+    Aplicación Gif - Udemy
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas en el componente <GitExpertApp/> Debe de mostrar una lista de categorias 1`] = `
+<Fragment>
+  <h2
+    className="animate__wobble"
+  >
+    Aplicación Gif - Udemy
+  </h2>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="Homero"
+      key="Homero"
+    />
+    <GifGrid
+      category="Los Simpson"
+      key="Los Simpson"
+    />
+  </ol>
+</Fragment>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba con el componente <GifGrid/>> Debe crear una copia 1`] = `
+<Fragment>
+  <h3>
+    Los Simpson
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <p>
+      Cargando ...
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[`Prueba con el componente <GifGrid/>> debe de mostrar items cuando se cargan imagens useFectGifs 1`] = `
+<Fragment>
+  <h3>
+    Los Simpson
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+    <GifGridItem
+      id="123"
+      key="123"
+      title="Foto"
+      url="https://localhost/cualquier/foto.jpg"
+    />
+  </div>
+</Fragment>
+`;

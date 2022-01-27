@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <AddCategory/> debe de mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__wobble"
+  >
+    Buscar
+  </h3>
+  <form
+    onSubmit={[Function]}
+  >
+    <h1 />
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;

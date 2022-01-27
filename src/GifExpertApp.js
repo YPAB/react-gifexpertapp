@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { AddCategory } from './component/AddCategory';
 import { GifGrid } from './component/GifGrid';
 
-const GitExpertApp = () => {
+const GitExpertApp = ({ defaultCategories = [] }) => {
 
     //const categories = ['Deporte','Arte','Musica'];
-    const [categories,setCategories] = useState(['Animals'])
+    //const [categories,setCategories] = useState(['Animals'])
+    const [categories,setCategories] = useState(defaultCategories);
 
     const handleAdd = () => {
         //setCategories([... categories,'Animales' ])

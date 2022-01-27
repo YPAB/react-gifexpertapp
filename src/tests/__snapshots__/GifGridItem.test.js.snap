@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GigGridItem debe devolver el objeto GifGridItem 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="Homero"
+    src="https://media0.giphy.com/media/Zk9mW5OmXTz9e/giphy.gif?cid=3271b137w2s82xs8dgbbvuyi6y9qizhmmp3vs5cx7vpl3jm2&rid=giphy.gif&ct=g"
+  />
+  <p>
+    Homero
+     
+  </p>
+</div>
+`;
